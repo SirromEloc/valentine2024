@@ -6,18 +6,18 @@ body {
 
 .person {
     scale: 100px;
-    width: 25vw;
 }
 
 .person:hover {
     animation: shake 2s alternate ease-in-out;
+    cursor: url(heart.png), pointer;
 }
 
 @keyframes shake {
     from {
-        scale: 90%;
+        scale: 90px;
     }
     to{
-        scale: 110%;
+        scale: 110px;
     }
 }
