@@ -5,11 +5,12 @@ body {
 }
 
 .person {
+    scale: 100px;
     width: 25vw;
 }
 
 .person:hover {
-
+    animation: shake 2s alternate ease-in-out;
 }
 
 @keyframes shake {
