@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.person {
+    width: 25vw;
+}
+
+.person:hover {
+
+}
+
+@keyframes shake {
+    from {
+        scale: 90%;
+    }
+    to{
+        scale: 110%;
+    }
+}
