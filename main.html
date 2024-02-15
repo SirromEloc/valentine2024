@@ -1,8 +1,17 @@
 <head>
   <link rel="stylesheet" href="style.css">
 </head>
+
+<script>
+  var clicks = 0
+  function onClick() {
+      clicks +=1
+      document.getElementById("clicks").innerHTML = clicks;
+  }
+
+</script>
+
 <body>
-  <span class="person"><img src="happy.png"></span>
-  <button type="button" onClick="onClick()">Click me</button>
-<p>Clicks: <a id="clicks">0</a></p>
+  <span onclick="onClick()"><img class="person" src="happy.png"></span>
+  <p>Loves: <a id="clicks">0</a></p>
 </body>

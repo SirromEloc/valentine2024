@@ -5,19 +5,23 @@ body {
 }
 
 .person {
-    scale: 100px;
+    width: 100px;
+    height: 100px;
+    
 }
 
 .person:hover {
-    animation: shake 2s alternate ease-in-out;
+    animation: 1s infinite alternate shake;
     cursor: url(heart.png), pointer;
 }
 
 @keyframes shake {
     from {
-        scale: 90px;
+        width: 90px;
+	height: 90px;
     }
     to{
-        scale: 110px;
+        width: 110px;
+	height: 110px;
     }
 }
